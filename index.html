@@ -1,0 +1,313 @@
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Artificial Intelligence Guide</title>
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+<script>
+function go(id){
+document.getElementById(id).scrollIntoView({behavior:"smooth"});
+}
+</script>
+
+</head>
+
+<body class="bg-gray-100 font-sans">
+
+
+
+<header class="bg-indigo-600 text-white sticky top-0">
+
+<div class="container mx-auto flex justify-between items-center p-4">
+
+<h1 class="text-2xl font-bold">AI Guide</h1>
+
+<div class="space-x-4">
+
+<button onclick="go('home')" class="hover:text-yellow-300">Home</button>
+<button onclick="go('about')" class="hover:text-yellow-300">About AI</button>
+<button onclick="go('types')" class="hover:text-yellow-300">Types</button>
+<button onclick="go('uses')" class="hover:text-yellow-300">Applications</button>
+<button onclick="go('faq')" class="hover:text-yellow-300">FAQ</button>
+<button onclick="go('contact')" class="hover:text-yellow-300">Contact</button>
+
+</div>
+
+</div>
+
+</header>
+
+
+
+<section id="home" class="bg-indigo-500 text-white text-center p-20">
+
+<div class="container mx-auto">
+
+<h2 class="text-4xl md:text-6xl font-bold mb-6">
+Artificial Intelligence
+</h2>
+
+<p class="text-lg mb-6">
+Learn how AI is transforming the modern world.
+</p>
+
+<button onclick="go('about')" class="bg-yellow-400 text-black px-6 py-3 rounded">
+Learn More
+</button>
+
+</div>
+
+</section>
+
+
+
+
+<section id="about" class="py-16">
+
+<div class="container mx-auto">
+
+<h2 class="text-3xl font-bold text-center mb-10">
+What is Artificial Intelligence?
+</h2>
+
+<p class="max-w-3xl mx-auto text-center">
+Artificial Intelligence (AI) is a branch of computer science that focuses on building
+systems capable of performing tasks that normally require human intelligence.
+These tasks include learning, reasoning, problem solving, perception and language understanding.
+</p>
+
+</div>
+
+</section>
+
+
+
+
+<section id="types" class="bg-white py-16">
+
+<div class="container mx-auto">
+
+<h2 class="text-3xl font-bold text-center mb-12">
+Types of Artificial Intelligence
+</h2>
+
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+
+<div class="bg-gray-100 p-6 rounded shadow">
+
+<h3 class="text-xl font-bold mb-3">
+Narrow AI
+</h3>
+
+<p>
+Designed to perform a specific task such as voice assistants, recommendation systems, and chatbots.
+</p>
+
+</div>
+
+
+<div class="bg-gray-100 p-6 rounded shadow">
+
+<h3 class="text-xl font-bold mb-3">
+General AI
+</h3>
+
+<p>
+A theoretical AI that can perform any intellectual task a human can do.
+</p>
+
+</div>
+
+
+<div class="bg-gray-100 p-6 rounded shadow">
+
+<h3 class="text-xl font-bold mb-3">
+Super AI
+</h3>
+
+<p>
+A future concept where machines surpass human intelligence in all areas.
+</p>
+
+</div>
+
+
+</div>
+
+</div>
+
+</section>
+
+
+
+
+<section id="uses" class="py-16">
+
+<div class="container mx-auto">
+
+<h2 class="text-3xl font-bold text-center mb-12">
+Applications of AI
+</h2>
+
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+
+<div class="bg-white p-6 rounded shadow">
+
+<h3 class="text-xl font-bold mb-3">
+Healthcare
+</h3>
+
+<p>
+AI helps doctors detect diseases early and analyze medical data.
+</p>
+
+</div>
+
+
+<div class="bg-white p-6 rounded shadow">
+
+<h3 class="text-xl font-bold mb-3">
+Transportation
+</h3>
+
+<p>
+Self-driving cars and smart traffic systems improve safety and efficiency.
+</p>
+
+</div>
+
+
+<div class="bg-white p-6 rounded shadow">
+
+<h3 class="text-xl font-bold mb-3">
+Education
+</h3>
+
+<p>
+AI tools personalize learning and help students understand concepts better.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+
+<section id="faq" class="bg-gray-200 py-16">
+
+<div class="container mx-auto max-w-3xl">
+
+<h2 class="text-3xl font-bold text-center mb-10">
+FAQ
+</h2>
+
+
+<div class="space-y-6">
+
+
+<div class="bg-white p-6 rounded shadow">
+
+<h3 class="font-bold">
+Is AI dangerous?
+</h3>
+
+<p>
+AI can be safe when used responsibly and with proper regulations.
+</p>
+
+</div>
+
+
+<div class="bg-white p-6 rounded shadow">
+
+<h3 class="font-bold">
+Can AI replace jobs?
+</h3>
+
+<p>
+AI may automate some tasks but also creates new opportunities and jobs.
+</p>
+
+</div>
+
+
+<div class="bg-white p-6 rounded shadow">
+
+<h3 class="font-bold">
+Where is AI used today?
+</h3>
+
+<p>
+AI is used in smartphones, online services, healthcare, finance and many industries.
+</p>
+
+</div>
+
+
+</div>
+
+</div>
+
+</section>
+
+
+
+
+<section id="contact" class="bg-indigo-600 text-white py-16">
+
+<div class="container mx-auto max-w-xl text-center">
+
+<h2 class="text-3xl font-bold mb-6">
+Contact Us
+</h2>
+
+<input class="w-full p-3 rounded text-black mb-4" placeholder="Name">
+
+<input class="w-full p-3 rounded text-black mb-4" placeholder="Email">
+
+<textarea class="w-full p-3 rounded text-black mb-4" placeholder="Message"></textarea>
+
+<button class="bg-yellow-400 text-black px-6 py-3 rounded">
+Send Message
+</button>
+
+</div>
+
+</section>
+
+
+
+
+<footer class="bg-gray-900 text-white text-center p-6">
+
+<div class="container mx-auto">
+
+<p class="text-lg">
+© 2026 AI Guide Website
+</p>
+
+<p class="text-sm text-gray-400">
+Educational website built using Tailwind CSS
+</p>
+
+</div>
+
+</footer>
+
+
+</body>
+</html>
